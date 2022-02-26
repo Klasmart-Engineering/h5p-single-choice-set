@@ -5,8 +5,8 @@
   "license": "MIT",
   "author": "Joubel",
   "majorVersion": 1,
-  "minorVersion": 11,
-  "patchVersion": 14,
+  "minorVersion": 12,
+  "patchVersion": 10,
   "runnable": 1,
   "fullscreen": 0,
   "embedTypes": [
@@ -54,9 +54,14 @@
       "minorVersion": 5
     },
     {
+      "machineName": "FontKidsLoop",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
       "machineName": "H5P.JoubelUI",
       "majorVersion": 1,
-      "minorVersion": 3
+      "minorVersion": 4
     },
     {
       "machineName": "H5P.Transition",
@@ -66,7 +71,7 @@
     {
       "machineName": "H5P.Question",
       "majorVersion": 1,
-      "minorVersion": 4
+      "minorVersion": 5
     }
   ],
   "editorDependencies": [

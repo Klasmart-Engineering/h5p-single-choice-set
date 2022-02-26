@@ -1,4 +1,5 @@
 .h5p-container.h5p-single-choice-set {
+  font-family: 'Roboto', sans-serif;
   overflow: hidden;
 }
 .h5p-container .h5p-sc-set ul {
