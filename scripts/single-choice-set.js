@@ -402,6 +402,8 @@ H5P.SingleChoiceSet = (function ($, UI, Question, SingleChoice, SolutionView, Re
       return;
     }
 
+    this.addButtons();
+
     var feedbackText = determineOverallFeedback(self.options.overallFeedback , score / self.options.choices.length)
       .replace(':numcorrect', score)
       .replace(':maxscore', self.options.choices.length.toString());
@@ -409,7 +411,7 @@ H5P.SingleChoiceSet = (function ($, UI, Question, SingleChoice, SolutionView, Re
     self.setFeedback(feedbackText, score, self.options.choices.length, self.l10n.scoreBarLabel);
 
     if (score === self.options.choices.length) {
-      self.hideButton('try-again');
+      self.showButton('try-again');
       self.hideButton('show-solution');
     }
     else {
